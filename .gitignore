@@ -1,0 +1,52 @@
+# NeuroCache .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyTorch
+*.pt
+*.pth
+
+# SSD Cache (generated at runtime)
+ssd_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Results (large files - regenerate by running experiments)
+results/*
+!results/validation/
+!results/validation/rtx2050_publication/
+!results/validation/rtx2050_publication/**
+!results/validation/rtx2050_publication_20step/
+!results/validation/rtx2050_publication_20step/**
+results/**/*.zip
+results/**/balanced_predictor.pt
+
+# Draft PDFs can contain stale claims; commit source/text once finalized.
+paper/*.pdf
+
+# Env
+.env
+venv/
+.venv/
+.uv-cache/
+.uv-python/

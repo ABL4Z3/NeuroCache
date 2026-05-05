@@ -1,0 +1,8 @@
+{
+  "output_dir": "C:\\Users\\Lenovo\\Downloads\\NeuroCache-GitHub-Ready\\NeuroCache-GitHub\\results\\validation\\rtx2050_publication",
+  "runs": 30,
+  "non_finite_loss_runs": 0,
+  "best_variant": "neurocache_budget5_checkpoint_cpu_bf16adam",
+  "best_mean_vram_reduction_vs_checkpoint_pct": 15.201936284321103,
+  "best_mean_throughput_vs_checkpoint_pct": -0.26285444842222727
+}

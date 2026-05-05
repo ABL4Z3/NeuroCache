@@ -1,0 +1,36 @@
+{
+  "summary": [
+    {
+      "variant": "checkpoint",
+      "n": 5,
+      "peak_cuda_allocated_mb_mean": 2894.5185546875,
+      "peak_cuda_allocated_mb_std": 0.0,
+      "tokens_per_sec_mean": 1890.1506526993917,
+      "tokens_per_sec_std": 4.091962126478721,
+      "ms_per_step_mean": 3250.546718998812,
+      "ms_per_step_std": 7.026755286766397,
+      "final_loss_mean": 9.77285041809082,
+      "final_loss_std": 0.004481163223234383,
+      "vram_reduction_vs_checkpoint_pct_mean": 0.0,
+      "vram_reduction_vs_checkpoint_pct_std": 0.0,
+      "throughput_vs_checkpoint_pct_mean": 0.0,
+      "throughput_vs_checkpoint_pct_std": 0.0
+    },
+    {
+      "variant": "neurocache_budget5_checkpoint_cpu_bf16adam",
+      "n": 5,
+      "peak_cuda_allocated_mb_mean": 2456.4306640625,
+      "peak_cuda_allocated_mb_std": 0.0,
+      "tokens_per_sec_mean": 1887.6242035275764,
+      "tokens_per_sec_std": 5.357946791140623,
+      "ms_per_step_mean": 3254.906207001768,
+      "ms_per_step_std": 9.270477054950579,
+      "final_loss_mean": 9.729924201965332,
+      "final_loss_std": 0.002597240037027109,
+      "vram_reduction_vs_checkpoint_pct_mean": 15.13508662487386,
+      "vram_reduction_vs_checkpoint_pct_std": 0.0,
+      "throughput_vs_checkpoint_pct_mean": -0.1333743252989228,
+      "throughput_vs_checkpoint_pct_std": 0.32572108138798705
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "python": "3.11.14 (main, Oct 14 2025, 21:21:22) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cuda_device": "NVIDIA GeForce RTX 2050",
+  "cuda_capability": [
+    8,
+    6
+  ],
+  "nvidia_smi": {
+    "name": "NVIDIA GeForce RTX 2050",
+    "memory_total_mb": 4096.0,
+    "driver_version": "577.05"
+  },
+  "system_ram_gb": 12.595355648,
+  "model_config": {
+    "vocab_size": 16000,
+    "seq_len": 768,
+    "batch_size": 8,
+    "d_model": 768,
+    "n_layers": 12,
+    "n_heads": 12,
+    "mlp_ratio": 4,
+    "dropout": 0.0
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    999,
+    2026
+  ],
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "warmup_steps": 1,
+  "measure_steps": 10,
+  "locked_neurocache_config": {
+    "checkpoint_blocks": true,
+    "optimizer_state": "BF16 CUDA Adam moments",
+    "activation_offload": "pinned CPU saved_tensors_hooks",
+    "async_transfer": false,
+    "budget_tensors_per_step": 5
+  },
+  "notes": [
+    "All measurements are real CUDA execution.",
+    "Budget sweep uses BF16 optimizer state for budget 0 and NeuroCache BF16 state for budgets >0.",
+    "No simulated placement or synthetic performance numbers are used."
+  ]
+}
