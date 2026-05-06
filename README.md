@@ -1,5 +1,7 @@
 # NeuroCache
 
+Research Paper:- https://www.researchgate.net/publication/404466007_NeuroCache_Budget-Constrained_Activation_Offloading_for_Low-VRAM_Transformer_Training
+
 Real CUDA validation of budgeted activation offloading for transformer training
 on low-VRAM NVIDIA GPUs.
 
